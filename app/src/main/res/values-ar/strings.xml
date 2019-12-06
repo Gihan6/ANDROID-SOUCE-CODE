@@ -139,5 +139,6 @@
     <string name="reset_btn_text">إعادة تعيين</string>
     <string name="new_user">مستخدم جديد ؟</string>
     <string name="sign_up">تسجيل</string>
+    <string name="forgot_password">هل نسيت كلمة السر ؟</string>
 
 </resources>
