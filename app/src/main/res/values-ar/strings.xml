@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">القيصر تي في</string>
+    <!--app_title for main navigation & home title-->
+    <string name="app_title">القيصر تي في</string>
+    <string name="app_version">1.1</string>
+    <string name="contact_email">Admin@TeamAlkaicer.com</string>
+    <string name="copyright_text">Copyright @ Alkaicer \nAll right reserved</string>
+    <!-- App -->
+    <string name="featured_tv_channels">قناة تلفزيونية مميزة</string>
+    <string name="latest_movie">اخر الافلام</string>
+    <string name="latest_tv_series">أحدث المسلسلات</string>
+    <string name="more">أكثر</string>
+    <string name="movie">افلام</string>
+    <string name="live_tv">قنوات مباشره</string>
+    <string name="tv_series">مسلسلات</string>
+    <string name="country">البلد</string>
+    <string name="genre">النوع</string>
+    <string name="fav">مفضل</string>
+    <string name="search">بحث</string>
+    <string name="no_item_found">لم يتم العثور على عنصر</string>
+    <string name="cast_n_crew">الكادر والطاقم</string>
+    <string name="related_movie">فيلم ذات الصلة</string>
+    <string name="signin">تسجيل الدخول</string>
+    <string name="reset">إستعادة كلمة السر</string>
+    <string name="register">التسجيل</string>
+    <string name="full_name">الاسم بالكامل</string>
+    <string name="email">البريد الألكتروني</string>
+    <string name="password">كلمة السر</string>
+    <string name="save">حفظ</string>
+    <string name="director">المخرج : </string>
+    <string name="description">الوصف</string>
+    <string name="comments">التعليقات</string>
+    <string name="your_comments">تعليقك</string>
+    <string name="add_comments">اضافة تعليق</string>
+    <string name="no_internet">لا يوجد اتصال بالإنترنت !</string>
+    <string name="copyright">حقوق النشر</string>
+    <string name="contact_us">اتصل بنا</string>
+    <string name="fetch_error">غير قادر على جلب البيانات</string>
+    <string name="login_first">انت تحتاج لتسجيل الدخول اولا</string>
+    <string name="comment_empty">لا يمكن اضافة تعليق فارغ</string>
+    <string name="error_toast">هناك خطأ ما ! حاول لاحقا</string>
+
+    <string-array name="nav_item_name">
+        <item>الرئيسية</item>
+        <item>أفلام</item>
+        <item>قنوات مباشره</item>
+        <item>مسلسلات</item>
+        <item>النوع</item>
+        <item>البلد</item>
+        <item>الملف الشخصي</item>
+        <item>مفضل</item>
+        <item>تسجيل خروج</item>
+        <item>الإعدادات</item>
+    </string-array>
+
+    <string-array name="nav_item_image">
+        <item>outline_home_24</item>
+        <item>outline_movie_24</item>
+        <item>outline_live_tv_24</item>
+        <item>outline_local_movies_24</item>
+        <item>outline_folder_24</item>
+        <item>outline_outlined_flag_24</item>
+        <item>outline_person_24</item>
+        <item>outline_favorite_border_24</item>
+        <item>outline_lock_24</item>
+        <item>outline_settings_24</item>
+    </string-array>
+
+    <string-array name="nav_item_name_2">
+        <item>الرئيسية</item>
+        <item>أفلام</item>
+        <item>قنوات مباشره</item>
+        <item>مسلسلات</item>
+        <item>النوع</item>
+        <item>البلد</item>
+        <item>تسجيل الدخول</item>
+        <item>الإعدادات</item>
+    </string-array>
+
+    <string-array name="nav_item_image_2">
+        <item>outline_home_24</item>
+        <item>outline_movie_24</item>
+        <item>outline_live_tv_24</item>
+        <item>outline_local_movies_24</item>
+        <item>outline_folder_24</item>
+        <item>outline_outlined_flag_24</item>
+        <item>outline_lock_24</item>
+        <item>outline_settings_24</item>
+    </string-array>
+
+
+    <string name="title_activity_player">شاهدت من قبل</string>
+
+    <string name="title_activity_item_show">عرض العنصر النشاط</string>
+    <string name="title_activity_details">تفاصيل النشاط</string>
+    <string name="title_activity_reply">نشاط الرد</string>
+    <string name="add_to_queue">إضافة إلى قائمة الانتظار</string>
+    <string name="play_now">تشغيل الأن</string>
+    <string name="play_next">تشغيل التالي</string>
+    <string name="queue_item_added_to_play_next">تم إضافة عنصر للتشغيل في التالي</string>
+    <string name="queue_item_added_to_queue">تمت إضافة عنصر إلى قائمة الانتظار</string>
+    <string name="program_guide">دليل البرنامج</string>
+    <string name="live">بث مباشر</string>
+    <string name="watching_on">مشاهدة مباشرة على</string>
+    <string name="all_tv_channel">جميع قنوات التلفزيون</string>
+    <string name="you_may_also_like">ربما يعجبك أيضا</string>
+    <string name="dark_mode">وضع الليلي</string>
+    <string name="tv_channels">قنوات التلفاز</string>
+    <string name="watching_catch_up_tv">تذكير بالمشاهده</string>
+    <string name="deactive_account_text">إذا كنت لا تريد استخدام هذا الحساب ، يمكنك إلغاء تنشيطه بسهولة </string>
+    <string name="reason_to_deactivate_account">سبب إلغاء تنشيط الحساب</string>
+    <string name="enter_password">أدخل كلمة المرور</string>
+
+    <string name="terms_condition_text">
+شكراً لاهتمامك بقراءة الشروط الخاصه بنا ، يرجي العلم ان التطبيق انشئ لك بشكل مجاني لا تقوم بشراء التطبيق من
+        اي شخص او دفع المال من اجل الحصول عليه ، تطبيق القيصر تي ڤي يمكنك من مشاهدة آخر الافلام و المسلسلات
+        و قنوات مباشره بشكل مجاني ، شكرا لك علي اهتمامك إذا أعجبك التطبيق قم بمشاركته الان
+    </string>
+    <string name="deactivate_account">تعطيل الحساب</string>
+    <string name="explore_by_genre">عرض حسب النوع</string>
+    <string name="explore_by_country">عرض حسب البلد</string>
+    <string name="share_this_app">مشاركة التطبيق</string>
+    <string name="share_body">أرغب في مشاركة هذا التطبيق معك لمشاهدة القنوات المشفرة و احدث الأفلام يمكنك تحميله الأن عبر http://iptv.allkaicerteam.com </string>
+    <string name="term_of_services">سياسة الأستخدام و الشروط</string>
+    <string name="accept">موافق</string>
+    <string name="decline">غير موافق</string>
+    <string name="account_deactivate_info"><![CDATA[سيتم إلغاء تنشيط حسابك ويمكن للمسؤول فقط تنشيطه مرة أخرى.]]></string>
+    <string name="regular_program">البرنامج العادي</string>
+    <string name="international">عالمي</string>
+    <string name="server">سيرفر</string>
+    <string name="_1080p">1080P</string>
+    <string name="dummy_name">Jhon Doe</string>
+    <string name="notifications">الأشعارات</string>
+    <string name="push_notification">تشغيل الأشعارات</string>
+    <string name="others">الآخرين</string>
+    <string name="reset_btn_text">إعادة تعيين</string>
+    <string name="new_user">مستخدم جديد ؟</string>
+    <string name="sign_up">تسجيل</string>
+
+</resources>

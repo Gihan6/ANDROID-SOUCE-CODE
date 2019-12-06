@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "941330709102",
+    "firebase_url": "https://elkaiser-e5591.firebaseio.com",
+    "project_id": "elkaiser-e5591",
+    "storage_bucket": "elkaiser-e5591.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941330709102:android:8d819957498c6aecb6c47f",
+        "android_client_info": {
+          "package_name": "sport.AlkaicerTV"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941330709102-3tuo7tse7h0h5ogplcd670285r8hf150.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sport.AlkaicerTV",
+            "certificate_hash": "0ddc2c6023ea4599be9650beb09c9bad1fe2f024"
+          }
+        },
+        {
+          "client_id": "941330709102-pllqjjjrb75rjk3rmdh8sn6mhgtd9ck7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKBDSCDYgIGq5w8nTVhCuIrHBXq-szEjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941330709102-pllqjjjrb75rjk3rmdh8sn6mhgtd9ck7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-land-v13/values-sw600dp-land-v13.xml",
+            "map": [
+                {
+                    "source": "/home/gihan/.gradle/caches/transforms-2/files-2.1/545d7d3d3e137b50e81ccf22b5f9f76c/jetified-ccl-2.8.4/res/values-sw600dp-land/values-sw600dp-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "203",
+                        "endColumns": "50",
+                        "endOffsets": "249"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                }
+            ]
+        }
+    ]
+}

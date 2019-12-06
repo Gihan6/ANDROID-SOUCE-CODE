@@ -1,0 +1,606 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="sport.AlkaicerTV"
+4    android:versionCode="11"
+5    android:versionName="1.1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:7:5-9:36
+12        android:name="android.software.leanback"
+12-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:8:9-49
+13        android:required="false" />
+13-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:9:9-33
+14    <uses-feature
+14-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:10:5-12:36
+15        android:name="android.hardware.touchscreen"
+15-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:11:9-52
+16        android:required="false" />
+16-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:12:9-33
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:14:5-67
+18-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:14:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:15:5-79
+19-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:15:22-76
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:16:5-80
+20-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:16:22-77
+21    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+21-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:17:5-80
+21-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:17:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:18:5-81
+22-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:18:22-78
+23    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+23-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:19:5-81
+23-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:19:22-78
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+24-->[com.google.android.libraries.cast.companionlibrary:ccl:2.8.4] /home/gihan/.gradle/caches/transforms-2/files-2.1/545d7d3d3e137b50e81ccf22b5f9f76c/jetified-ccl-2.8.4/AndroidManifest.xml:26:5-76
+24-->[com.google.android.libraries.cast.companionlibrary:ccl:2.8.4] /home/gihan/.gradle/caches/transforms-2/files-2.1/545d7d3d3e137b50e81ccf22b5f9f76c/jetified-ccl-2.8.4/AndroidManifest.xml:26:22-73
+25    <permission
+25-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:8:5-10:47
+26        android:name="sport.AlkaicerTV.permission.C2D_MESSAGE"
+26-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:9:9-63
+27        android:protectionLevel="signature" />
+27-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:10:9-44
+28
+29    <uses-permission android:name="sport.AlkaicerTV.permission.C2D_MESSAGE" />
+29-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:12:5-79
+29-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:12:22-76
+30    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" /> <!-- Required, makes sure notifications are delivered on time. -->
+30-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:18:5-82
+30-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:18:22-79
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:19:5-68
+31-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:19:22-65
+32    <!--
+33 Required so the device vibrates on receiving a push notification.
+34         Vibration settings of the device still apply.
+35    -->
+36    <uses-permission android:name="android.permission.VIBRATE" />
+36-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:24:5-66
+36-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:24:22-63
+37    <!--
+38 Use to restore notifications the user hasn't interacted with.
+39         They could be missed notifications if the user reboots their device if this isn't in place.
+40    -->
+41    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+41-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:30:5-81
+41-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:30:22-78
+42    <!-- Samsung -->
+43    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+43-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:32:5-86
+43-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:32:22-83
+44    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+44-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:33:5-87
+44-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:33:22-84
+45    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+45-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:34:5-81
+45-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:34:22-78
+46    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+46-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:35:5-83
+46-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:35:22-80
+47    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+47-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:36:5-88
+47-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:36:22-85
+48    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+48-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:37:5-92
+48-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:37:22-89
+49    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+49-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:38:5-84
+49-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:38:22-81
+50    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+50-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:39:5-83
+50-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:39:22-80
+51    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+51-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:40:5-91
+51-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:40:22-88
+52    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+52-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:41:5-92
+52-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:41:22-89
+53    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+53-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:42:5-93
+53-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:42:22-90
+54    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+54-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:43:5-73
+54-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:43:22-70
+55    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+55-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:44:5-82
+55-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:44:22-79
+56    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+56-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:45:5-83
+56-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:45:22-80
+57    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+57-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:46:5-88
+57-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:46:22-85
+58    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+58-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:47:5-89
+58-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:47:22-86
+59    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+59-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:26:5-110
+59-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:26:22-107
+60
+61    <application
+61-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:21:5-112:19
+62        android:name="sport.AlkaicerTV.utils.MyAppClass"
+62-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:22:9-41
+63        android:allowBackup="true"
+63-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:23:9-35
+64        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+64-->[androidx.core:core:1.1.0-beta01] /home/gihan/.gradle/caches/transforms-2/files-2.1/f879465403b0049e0f3729e60941fd72/core-1.1.0-beta01/AndroidManifest.xml:22:18-86
+65        android:debuggable="true"
+66        android:icon="@drawable/logo"
+66-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:24:9-38
+67        android:label="@string/app_name"
+67-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:25:9-41
+68        android:roundIcon="@drawable/logo"
+68-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:26:9-43
+69        android:supportsRtl="true"
+69-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:27:9-35
+70        android:theme="@style/AppTheme"
+70-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:28:9-40
+71        android:usesCleartextTraffic="true" >
+71-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:29:9-44
+72        <activity
+72-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:32:9-34:63
+73            android:name="sport.AlkaicerTV.WebViewActivity"
+73-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:32:19-50
+74            android:screenOrientation="landscape"
+74-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:33:13-50
+75            android:theme="@style/FullscreenTheme" />
+75-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:34:13-51
+76
+77        <meta-data
+77-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:36:9-38:70
+78            android:name="com.google.android.gms.ads.APPLICATION_ID"
+78-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:37:13-69
+79            android:value="ca-app-pub-8804184340526788~7833821786" />
+79-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:38:13-67
+80        <meta-data
+80-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:39:9-41:39
+81            android:name="com.onesignal.NotificationOpened.DEFAULT"
+81-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:40:13-68
+82            android:value="DISABLE" />
+82-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:41:13-36
+83        <meta-data
+83-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:42:9-44:97
+84            android:name="com.google.android.gms.cast.framework.OPTIONS_PROVIDER_CLASS_NAME"
+84-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:43:13-93
+85            android:value="com.google.android.exoplayer2.ext.cast.DefaultCastOptionsProvider" />
+85-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:44:13-94
+86
+87        <activity
+87-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:46:9-49:53
+88            android:name="sport.AlkaicerTV.TermsActivity"
+88-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:47:13-42
+89            android:screenOrientation="portrait"
+89-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:48:13-49
+90            android:theme="@style/AppTheme.Nobar" />
+90-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:49:13-50
+91        <activity
+91-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:50:9-54:59
+92            android:name="sport.AlkaicerTV.ReplyActivity"
+92-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:51:13-42
+93            android:label="@string/title_activity_reply"
+93-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:52:13-57
+94            android:screenOrientation="portrait"
+94-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:53:13-49
+95            android:theme="@style/AppTheme.NoActionBar" />
+95-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:54:13-56
+96        <activity
+96-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:55:9-58:53
+97            android:name="sport.AlkaicerTV.ProfileActivity"
+97-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:56:13-44
+98            android:screenOrientation="portrait"
+98-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:57:13-49
+99            android:theme="@style/AppTheme.Nobar" />
+99-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:58:13-50
+100        <activity
+100-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:59:9-62:53
+101            android:name="sport.AlkaicerTV.PassResetActivity"
+101-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:60:13-46
+102            android:screenOrientation="portrait"
+102-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:61:13-49
+103            android:theme="@style/AppTheme.Nobar" />
+103-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:62:13-50
+104        <activity
+104-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:63:9-66:53
+105            android:name="sport.AlkaicerTV.SearchActivity"
+105-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:64:13-43
+106            android:screenOrientation="portrait"
+106-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:65:13-49
+107            android:theme="@style/AppTheme.Nobar" />
+107-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:66:13-50
+108        <activity
+108-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:67:9-70:53
+109            android:name="sport.AlkaicerTV.SignUpActivity"
+109-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:68:13-43
+110            android:screenOrientation="portrait"
+110-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:69:13-49
+111            android:theme="@style/AppTheme.Nobar" />
+111-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:70:13-50
+112        <activity
+112-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:71:9-74:53
+113            android:name="sport.AlkaicerTV.LoginActivity"
+113-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:72:13-42
+114            android:screenOrientation="portrait"
+114-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:73:13-49
+115            android:theme="@style/AppTheme.Nobar" />
+115-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:74:13-50
+116        <activity
+116-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:75:9-79:59
+117            android:name="sport.AlkaicerTV.DetailsActivity"
+117-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:76:13-44
+118            android:configChanges="screenLayout|screenSize|orientation"
+118-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:77:13-72
+119            android:label="@string/title_activity_details"
+119-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:78:13-59
+120            android:theme="@style/AppTheme.NoActionBar" /> <!-- android:configChanges="screenLayout|screenSize|orientation" -->
+120-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:79:13-56
+121        <activity
+121-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:80:9-84:55
+122            android:name="sport.AlkaicerTV.MainActivity"
+122-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:81:13-41
+123            android:screenOrientation="portrait"
+123-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:82:13-49
+124            android:theme="@style/AppTheme.Nobar"
+124-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:83:13-50
+125            android:windowSoftInputMode="adjustPan" />
+125-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:84:13-52
+126        <activity
+126-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:85:9-87:53
+127            android:name="sport.AlkaicerTV.SettingsActivity"
+127-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:86:13-45
+128            android:theme="@style/AppTheme.Nobar" />
+128-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:87:13-50
+129        <activity
+129-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:88:9-98:20
+130            android:name="sport.AlkaicerTV.SplashscreenActivity"
+130-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:89:13-49
+131            android:configChanges="orientation|keyboardHidden|screenSize"
+131-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:90:13-74
+132            android:screenOrientation="portrait"
+132-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:91:13-49
+133            android:theme="@style/FullscreenTheme" >
+133-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:92:13-51
+134            <intent-filter>
+134-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:93:13-97:29
+135                <action android:name="android.intent.action.MAIN" />
+135-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:94:17-69
+135-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:94:25-66
+136
+137                <category android:name="android.intent.category.LAUNCHER" />
+137-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:96:17-77
+137-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:96:27-74
+138            </intent-filter>
+139        </activity>
+140        <activity
+140-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:99:9-103:59
+141            android:name="sport.AlkaicerTV.ItemMovieActivity"
+141-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:100:13-46
+142            android:label="@string/title_activity_item_show"
+142-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:101:13-61
+143            android:screenOrientation="portrait"
+143-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:102:13-49
+144            android:theme="@style/AppTheme.NoActionBar" />
+144-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:103:13-56
+145        <activity
+145-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:104:9-107:53
+146            android:name="sport.AlkaicerTV.ItemTVActivity"
+146-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:105:13-43
+147            android:screenOrientation="portrait"
+147-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:106:13-49
+148            android:theme="@style/AppTheme.Nobar" />
+148-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:107:13-50
+149        <activity
+149-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:108:9-111:53
+150            android:name="sport.AlkaicerTV.ItemSeriesActivity"
+150-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:109:13-47
+151            android:screenOrientation="portrait"
+151-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:110:13-49
+152            android:theme="@style/AppTheme.Nobar" />
+152-->/home/gihan/Downloads/ANDROID-SOUCE-CODE/app/src/main/AndroidManifest.xml:111:13-50
+153
+154        <receiver
+154-->[com.google.android.gms:play-services-cast-framework:15.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/43f61977ed6186414f282e19db67f398/jetified-play-services-cast-framework-15.0.1/AndroidManifest.xml:8:9-10:40
+155            android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver"
+155-->[com.google.android.gms:play-services-cast-framework:15.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/43f61977ed6186414f282e19db67f398/jetified-play-services-cast-framework-15.0.1/AndroidManifest.xml:9:13-91
+156            android:exported="false" />
+156-->[com.google.android.gms:play-services-cast-framework:15.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/43f61977ed6186414f282e19db67f398/jetified-play-services-cast-framework-15.0.1/AndroidManifest.xml:10:13-37
+157
+158        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+158-->[com.google.android.gms:play-services-cast-framework:15.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/43f61977ed6186414f282e19db67f398/jetified-play-services-cast-framework-15.0.1/AndroidManifest.xml:12:9-104
+158-->[com.google.android.gms:play-services-cast-framework:15.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/43f61977ed6186414f282e19db67f398/jetified-play-services-cast-framework-15.0.1/AndroidManifest.xml:12:18-101
+159        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+159-->[com.google.android.gms:play-services-cast-framework:15.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/43f61977ed6186414f282e19db67f398/jetified-play-services-cast-framework-15.0.1/AndroidManifest.xml:13:9-93
+159-->[com.google.android.gms:play-services-cast-framework:15.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/43f61977ed6186414f282e19db67f398/jetified-play-services-cast-framework-15.0.1/AndroidManifest.xml:13:18-90
+160
+161        <meta-data
+161-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:50:9-52:51
+162            android:name="onesignal_app_id"
+162-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:51:13-44
+163            android:value="d8b8eed4-b0ec-4c15-9877-92d265f27bc8" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+163-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:52:13-48
+164        <meta-data
+164-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:54:9-56:70
+165            android:name="onesignal_google_project_number"
+165-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:55:13-59
+166            android:value="str:REMOTE" />
+166-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:56:13-67
+167
+168        <receiver
+168-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:58:9-68:20
+169            android:name="com.onesignal.GcmBroadcastReceiver"
+169-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:59:13-62
+170            android:permission="com.google.android.c2dm.permission.SEND" >
+170-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:60:13-73
+171
+172            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+173            <intent-filter android:priority="999" >
+173-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:63:13-67:29
+173-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:63:28-50
+174                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+174-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:64:17-81
+174-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:64:25-78
+175
+176                <category android:name="sport.AlkaicerTV" />
+176-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:66:17-61
+176-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:66:27-58
+177            </intent-filter>
+178        </receiver>
+179        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+179-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:69:9-77
+179-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:69:19-74
+180
+181        <service android:name="com.onesignal.GcmIntentService" />
+181-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:71:9-66
+181-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:71:18-63
+182        <service
+182-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:72:9-74:72
+183            android:name="com.onesignal.GcmIntentJobService"
+183-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:73:13-61
+184            android:permission="android.permission.BIND_JOB_SERVICE" />
+184-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:74:13-69
+185        <service
+185-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:75:9-77:72
+186            android:name="com.onesignal.RestoreJobService"
+186-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:76:13-59
+187            android:permission="android.permission.BIND_JOB_SERVICE" />
+187-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:77:13-69
+188        <service
+188-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:78:9-80:72
+189            android:name="com.onesignal.RestoreKickoffJobService"
+189-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:79:13-66
+190            android:permission="android.permission.BIND_JOB_SERVICE" />
+190-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:80:13-69
+191        <service
+191-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:81:9-83:43
+192            android:name="com.onesignal.SyncService"
+192-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:82:13-53
+193            android:stopWithTask="true" />
+193-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:83:13-40
+194        <service
+194-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:84:9-86:72
+195            android:name="com.onesignal.SyncJobService"
+195-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:85:13-56
+196            android:permission="android.permission.BIND_JOB_SERVICE" />
+196-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:86:13-69
+197
+198        <activity
+198-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:88:9-90:75
+199            android:name="com.onesignal.PermissionsActivity"
+199-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:89:13-61
+200            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+200-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:90:13-72
+201
+202        <service android:name="com.onesignal.NotificationRestoreService" />
+202-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:92:9-76
+202-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:92:18-73
+203
+204        <receiver android:name="com.onesignal.BootUpReceiver" >
+204-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:94:9-99:20
+204-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:94:19-62
+205            <intent-filter>
+205-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:95:13-98:29
+206                <action android:name="android.intent.action.BOOT_COMPLETED" />
+206-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:96:17-79
+206-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:96:25-76
+207                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+207-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:97:17-82
+207-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:97:25-79
+208            </intent-filter>
+209        </receiver>
+210        <receiver android:name="com.onesignal.UpgradeReceiver" >
+210-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:100:9-104:20
+210-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:100:19-63
+211            <intent-filter>
+211-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:101:13-103:29
+212                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+212-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:102:17-84
+212-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:102:25-81
+213            </intent-filter>
+214        </receiver>
+215        <!--
+216             FirebaseMessagingService performs security checks at runtime,
+217             no need for explicit permissions despite exported="true"
+218        -->
+219        <service
+219-->[com.google.firebase:firebase-messaging:17.3.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/a429fb8903cc4eba93f73e7a23d4d974/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:28:9-34:19
+220            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+220-->[com.google.firebase:firebase-messaging:17.3.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/a429fb8903cc4eba93f73e7a23d4d974/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:29:13-82
+221            android:exported="true" >
+221-->[com.google.firebase:firebase-messaging:17.3.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/a429fb8903cc4eba93f73e7a23d4d974/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:30:13-36
+222            <intent-filter android:priority="-500" >
+222-->[com.google.firebase:firebase-messaging:17.3.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/a429fb8903cc4eba93f73e7a23d4d974/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:31:13-33:29
+222-->[com.google.firebase:firebase-messaging:17.3.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/a429fb8903cc4eba93f73e7a23d4d974/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:31:28-51
+223                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+223-->[com.google.firebase:firebase-messaging:17.3.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/a429fb8903cc4eba93f73e7a23d4d974/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:32:17-78
+223-->[com.google.firebase:firebase-messaging:17.3.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/a429fb8903cc4eba93f73e7a23d4d974/jetified-firebase-messaging-17.3.3/AndroidManifest.xml:32:25-75
+224            </intent-filter>
+225        </service>
+226
+227        <receiver
+227-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:29:9-33:20
+228            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+228-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:30:13-85
+229            android:enabled="true"
+229-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:31:13-35
+230            android:exported="false" >
+230-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:32:13-37
+231        </receiver>
+232        <receiver
+232-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:34:9-42:20
+233            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+233-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:35:13-100
+234            android:enabled="true"
+234-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:36:13-35
+235            android:exported="true"
+235-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:37:13-36
+236            android:permission="android.permission.INSTALL_PACKAGES" >
+236-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:38:13-69
+237            <intent-filter>
+237-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:39:13-41:29
+238                <action android:name="com.android.vending.INSTALL_REFERRER" />
+238-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:40:17-79
+238-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:40:25-76
+239            </intent-filter>
+240        </receiver>
+241
+242        <service
+242-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:44:9-47:40
+243            android:name="com.google.android.gms.measurement.AppMeasurementService"
+243-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:45:13-84
+244            android:enabled="true"
+244-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:46:13-35
+245            android:exported="false" />
+245-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:47:13-37
+246        <service
+246-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:48:9-52:72
+247            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+247-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:49:13-87
+248            android:enabled="true"
+248-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:50:13-35
+249            android:exported="false"
+249-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:51:13-37
+250            android:permission="android.permission.BIND_JOB_SERVICE" />
+250-->[com.google.android.gms:play-services-measurement:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/1ca98324e4808f0279b38a1fe393f105/jetified-play-services-measurement-16.4.0/AndroidManifest.xml:52:13-69
+251        <service
+251-->[com.google.android.gms:play-services-measurement-api:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/691344697d7938b35290fdcf8b70968c/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:27:9-33:19
+252            android:name="com.google.firebase.components.ComponentDiscoveryService"
+252-->[com.google.android.gms:play-services-measurement-api:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/691344697d7938b35290fdcf8b70968c/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:28:13-84
+253            android:exported="false" >
+253-->[com.google.android.gms:play-services-measurement-api:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/691344697d7938b35290fdcf8b70968c/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:29:13-37
+254            <meta-data
+254-->[com.google.android.gms:play-services-measurement-api:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/691344697d7938b35290fdcf8b70968c/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:30:13-32:85
+255                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+255-->[com.google.android.gms:play-services-measurement-api:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/691344697d7938b35290fdcf8b70968c/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:31:17-139
+256                android:value="com.google.firebase.components.ComponentRegistrar" />
+256-->[com.google.android.gms:play-services-measurement-api:16.4.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/691344697d7938b35290fdcf8b70968c/jetified-play-services-measurement-api-16.4.0/AndroidManifest.xml:32:17-82
+257            <meta-data
+257-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:32:13-34:85
+258                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+258-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:33:17-96
+259                android:value="com.google.firebase.components.ComponentRegistrar" />
+259-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:34:17-82
+260        </service> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+261        <activity
+261-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:29:9-33:64
+262            android:name="com.google.android.gms.ads.AdActivity"
+262-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:30:13-65
+263            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+263-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:31:13-122
+264            android:exported="false"
+264-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:32:13-37
+265            android:theme="@android:style/Theme.Translucent" />
+265-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:33:13-61
+266
+267        <provider
+267-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:35:9-39:39
+268            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+268-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:36:13-76
+269            android:authorities="sport.AlkaicerTV.mobileadsinitprovider"
+269-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:37:13-73
+270            android:exported="false"
+270-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:38:13-37
+271            android:initOrder="100" />
+271-->[com.google.android.gms:play-services-ads-lite:17.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/583f1f50d1ca489d1c308acae5e2b9ee/jetified-play-services-ads-lite-17.2.0/AndroidManifest.xml:39:13-36
+272
+273        <receiver
+273-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:37:9-44:20
+274            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+274-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:38:13-78
+275            android:exported="true"
+275-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:39:13-36
+276            android:permission="com.google.android.c2dm.permission.SEND" >
+276-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:40:13-73
+277            <intent-filter>
+277-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:41:13-43:29
+278                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+278-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:64:17-81
+278-->[com.onesignal:OneSignal:3.10.5] /home/gihan/.gradle/caches/transforms-2/files-2.1/de653d5cc3f6faee3b8e43b88589a3a2/jetified-OneSignal-3.10.5/AndroidManifest.xml:64:25-78
+279            </intent-filter>
+280        </receiver>
+281        <!--
+282             FirebaseInstanceIdService performs security checks at runtime,
+283             no need for explicit permissions despite exported="true"
+284        -->
+285        <service
+285-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:50:9-56:19
+286            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+286-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:51:13-77
+287            android:exported="true" >
+287-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:52:13-36
+288            <intent-filter android:priority="-500" >
+288-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:13-55:29
+288-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:53:28-51
+289                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+289-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:17-80
+289-->[com.google.firebase:firebase-iid:17.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/49778a663148b86387acfcf630f309ca/jetified-firebase-iid-17.0.3/AndroidManifest.xml:54:25-77
+290            </intent-filter>
+291        </service>
+292
+293        <provider
+293-->[com.google.firebase:firebase-common:16.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/235265429660fc9487203d84b9658d8a/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+294            android:name="com.google.firebase.provider.FirebaseInitProvider"
+294-->[com.google.firebase:firebase-common:16.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/235265429660fc9487203d84b9658d8a/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+295            android:authorities="sport.AlkaicerTV.firebaseinitprovider"
+295-->[com.google.firebase:firebase-common:16.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/235265429660fc9487203d84b9658d8a/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+296            android:exported="false"
+296-->[com.google.firebase:firebase-common:16.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/235265429660fc9487203d84b9658d8a/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+297            android:initOrder="100" />
+297-->[com.google.firebase:firebase-common:16.0.3] /home/gihan/.gradle/caches/transforms-2/files-2.1/235265429660fc9487203d84b9658d8a/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+298
+299        <activity
+299-->[com.google.android.gms:play-services-base:16.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/2abb58bf4572cf2ea7c44c4c8d0e7082/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+300            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+300-->[com.google.android.gms:play-services-base:16.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/2abb58bf4572cf2ea7c44c4c8d0e7082/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-base:16.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/2abb58bf4572cf2ea7c44c4c8d0e7082/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+302            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+302-->[com.google.android.gms:play-services-base:16.0.1] /home/gihan/.gradle/caches/transforms-2/files-2.1/2abb58bf4572cf2ea7c44c4c8d0e7082/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+303
+304        <meta-data
+304-->[com.google.android.gms:play-services-basement:16.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/bea7e700712103fe544ce645b16146a7/jetified-play-services-basement-16.2.0/AndroidManifest.xml:23:9-25:69
+305            android:name="com.google.android.gms.version"
+305-->[com.google.android.gms:play-services-basement:16.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/bea7e700712103fe544ce645b16146a7/jetified-play-services-basement-16.2.0/AndroidManifest.xml:24:13-58
+306            android:value="@integer/google_play_services_version" />
+306-->[com.google.android.gms:play-services-basement:16.2.0] /home/gihan/.gradle/caches/transforms-2/files-2.1/bea7e700712103fe544ce645b16146a7/jetified-play-services-basement-16.2.0/AndroidManifest.xml:25:13-66
+307
+308        <provider
+308-->[com.squareup.picasso:picasso:2.71828] /home/gihan/.gradle/caches/transforms-2/files-2.1/d7d7652bf9f6b60b5f9e84ceeed9cd82/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+309            android:name="com.squareup.picasso.PicassoProvider"
+309-->[com.squareup.picasso:picasso:2.71828] /home/gihan/.gradle/caches/transforms-2/files-2.1/d7d7652bf9f6b60b5f9e84ceeed9cd82/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+310            android:authorities="sport.AlkaicerTV.com.squareup.picasso"
+310-->[com.squareup.picasso:picasso:2.71828] /home/gihan/.gradle/caches/transforms-2/files-2.1/d7d7652bf9f6b60b5f9e84ceeed9cd82/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+311            android:exported="false" />
+311-->[com.squareup.picasso:picasso:2.71828] /home/gihan/.gradle/caches/transforms-2/files-2.1/d7d7652bf9f6b60b5f9e84ceeed9cd82/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+312    </application>
+313
+314</manifest>
